@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:startDestination="@id/breaking_news_fragment"
+    >
+    <fragment
+        android:id="@+id/breaking_news_fragment"
+        android:name="com.myapplication.passosyncapp2.ui.fragments.BreakingNews"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_breaking_news" />
+
+    <fragment
+        android:id="@+id/saved_news_fragment"
+        android:name="com.myapplication.passosyncapp2.ui.fragments.SavedNews"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_saved_news" />
+
+</navigation>
